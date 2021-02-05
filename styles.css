@@ -1,0 +1,70 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.centertext {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.navbar {
+  font-size: 1.5rem;
+}
+
+.nav-item {
+  padding-left: 30px;
+}
+.navbar-brand {
+  font-size: 1.75rem;
+}
+
+.intropage {
+  margin-top: 70px;
+  height: 70vh;
+}
+
+.introtext {
+  padding-top: 30px;
+}
+
+/* PROFILE */
+
+.profile {
+  margin: 2% auto;
+  width: 75%;
+}
+
+.profile-pic {
+  margin: 0 auto;
+  border: 1px solid blue;
+  padding: 5px;
+}
+
+.profile-list {
+  text-indent: 10px;
+}
+
+.quote {
+  padding-bottom: 20px;
+}
+
+.social-post {
+  padding: 30px;
+  height: auto;
+}
+
+.postpic {
+  margin: 0 20px;
+  border: 1px solid blue;
+}
+
+.postdate {
+  color: #91889a;
+}
+
+.footer {
+  color: #91889a;
+  text-align: center;
+  font-size: 1rem;
+  padding: 30px;
+}
