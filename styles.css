@@ -74,3 +74,21 @@ body {
   font-size: 1rem;
   padding: 30px;
 }
+
+.settings {
+  margin: 40px auto;
+}
+
+.settingsec {
+  margin: 20px 50px;
+}
+
+.form-check {
+  padding: 10px 10px;
+}
+
+.settinghr {
+  width: 75%;
+  text-align: center;
+  border: 1px solid blue;
+}
