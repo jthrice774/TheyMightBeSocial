@@ -6,7 +6,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <title>TMBS - Home</title>
+    <title>TMBS - Home (or is it?)</title>
         <link rel="shortcut icon" type="image/jpg" href="images/escapeteam.jpg" />
   </head>
   <body>
@@ -14,7 +14,7 @@
 <!-- NavBar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="index.html"><img src="logo.jpg" alt="logo" width="67" height="40" class="d-inline-block align-top" />They Might Be Social</a>
+    <a class="navbar-brand" href="index.html"><img src="logo.jpg" alt="logo" width="67" height="40" class="d-inline-block align-top" />ThEy MiGhT bE sOcIaL</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -41,26 +41,42 @@
           <a class="nav-link" href="settings.html">Settings</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="error.html">SUPER FUN SURPISE!!!</a>
+          <a class="nav-link" onclick="on()" href="#">EVEN FUNNER SURPISE!!!</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
 
+<div class="text-shadow">
+
+
+<div id="overlay" onclick="off()">
+  <div id="indexertext">MUWAHAHA<br /> I BROKE THE LINK!!<br />No more clicky for<br />Captain Clicky McClickypants!!</div>
+</div>
 <div class="container centertext">
   <div class="col-sm-12 intropage">
-    <img src="images/escapeteam.jpg" style="max-width: 200px;" />
-    <h1 class="introtext">Welcome To They Might Be Social!</h1>
-    <h3 class="introtext">A social media site for members of The Escape Team.</h3>
+    <img src="images/escapeteam.jpg" class="erimg" style="max-width: 200px;" />
+    <h1 class="introtext">Welcome (back) To They Might Be Social!</h1>
+    <h3 class="introtext">A social media site for members of ThE eScApE tEaM.</h3>
+    <h3 class="introtext">And people who CANNOT LISTEN TO INSTRUCTIONS.</h3>
+
   </div>
 </div>
 
 
 
 
-<p class="footer">2021 Copyleft They Might Be Social</p>
+<p class="footer">2021 Copyleft They Might Be Social</p></div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script>
+      function on() {
+        document.getElementById("overlay").style.display = "block";
+      }
+      function off() {
+        document.getElementById("overlay").style.display = "none";
+      }
+    </script>
   </body>
 </html>
